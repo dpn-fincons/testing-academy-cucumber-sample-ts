@@ -1,0 +1,17 @@
+{
+  "name": "cucumber-sample-tests-ts",
+  "version": "1.0.0",
+  "description": "Demo for cucumber using typescript",
+  "author": "Domenico Pio Novelli",
+  "devDependencies": {
+    "@cucumber/cucumber": "7.3.1",
+    "@types/node": "16.11.8",
+    "ts-node": "9.1.1",
+    "typescript": "4.1.5"
+  },
+  "scripts": {
+    "test": "node node_modules/@cucumber/cucumber/bin/cucumber-js",
+    "test:all": "node node_modules/@cucumber/cucumber/bin/cucumber-js -p all",
+    "test:profile": "node node_modules/@cucumber/cucumber/bin/cucumber-js -p"
+  }
+}
